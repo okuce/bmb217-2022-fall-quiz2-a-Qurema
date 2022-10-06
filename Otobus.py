@@ -18,7 +18,7 @@ class Otobus:
     
     def bilet_iade(self,Boskoltuk):
         boskoltuk=0
-        boskoltuk= self.Dolukoltuk-self.Boskoltuk
+        boskoltuk= koltuk-self.Boskoltuk
         return boskoltuk
         
         
@@ -27,6 +27,6 @@ class Otobus:
 
     
     def durum_yaz(self):
-        print("Nereden:{}, Nereye:{}, Plaka:{}, Dolukoltuk:{}, Boskoltuk:{}".format(self.Nereden, self.Nereye, self.Plaka, koltuk, boskoltuk) )
+        print("Nereden:{}, Nereye:{}, Plaka:{}, Dolukoltuk:{}, Boskoltuk:{}".format(self.Nereden, self.Nereye, self.plaka, koltuk, boskoltuk) )
 
 
