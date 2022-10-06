@@ -12,13 +12,13 @@ class Otobus:
         
     def bilet_sat(self,Dolukoltuk):
         koltuk=0
-        koltuk= (self.Dolukoltuk + 1)
+        koltuk=self.Dolukoltuk
         return koltuk
         
     
     def bilet_iade(self,Boskoltuk):
         boskoltuk=0
-        boskoltuk= (koltuk-1)
+        boskoltuk= self.Dolukoltuk-self.Boskoltuk
         return boskoltuk
         
         
