@@ -2,13 +2,11 @@ class Otobus:
     plaka=""
     Nereden=""
     Nereye=""
-    Boskoltuk=0
     Dolukoltuk=0
-    def __init__(self,plaka,Nereden,Nereye,Boskoltuk,Dolukoltuk):
+    def __init__(self,plaka,Nereden,Nereye,Dolukoltuk):
         self.plaka= plaka
         self.Nereden= Nereden
         self.Nereye= Nereye 
-        self.Bsokoltuk=Boskoltuk
         self.Dolukoltuk= Dolukoltuk
         
         
