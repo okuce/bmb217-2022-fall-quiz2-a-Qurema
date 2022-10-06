@@ -29,4 +29,8 @@ class Otobus:
     
     def durum_yaz(self):
         print("Nereden:{}, Nereye:{}, Plaka:{}, Dolukoltuk:{}, Boskoltuk:{}".format(self.Nereden, self.Nereye, self.plaka, koltuk, boskoltuk) )
+        
+        """
+        Alperen Öz
+        """
 
